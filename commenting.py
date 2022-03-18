@@ -17,10 +17,10 @@ class MyStreamListener(tweepy.StreamListener):
 
         if tweet.favorite_count >=0 or  tweet.retweet_count >=0:
             print(tweet.favorite_count)
-            print("The tweet is greater than 0 or equal to 0  ")
-        api.update_status(status=comment, in_reply_to_status_id = tweet_id, auto_populate_reply_metadata=True)
-        print("Done replying")
-        time.sleep(60*45)
+           
+            api.update_status(status=comment, in_reply_to_status_id = tweet_id, auto_populate_reply_metadata=True)
+            print("Done replying")
+            time.sleep(60*25)
         
     def on_error(self, status):
         print("Error detected")

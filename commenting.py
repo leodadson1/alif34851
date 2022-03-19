@@ -28,8 +28,8 @@ class MyStreamListener(tweepy.StreamListener):
 API_KEY="WI1tfVUIg0IJaQ1nuxS0WqnSX"
 API_SECRET_KEY="0OusFSDVi4qy9akDZuBYSfxuTeQ1TSEdgm1tJUisFAfD4Zdmag"
 ####add access_token and access_token_secret###
-ACCESS_TOKEN="1504649262214254593-TmOxHC1HbP5cZpIGsB82YOYmlvv8LP"
-ACCESS_TOKEN_SECRET="ONXlcCFiViGZ9L8pPDdtXiy5IlmfdZlL14yh80PvOzW0c"
+ACCESS_TOKEN=""
+ACCESS_TOKEN_SECRET=""
 
 
 # Authenticate to Twitter

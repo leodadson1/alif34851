@@ -39,7 +39,7 @@ Irntoken.one
         """
         favorite_coun=tweet.favorite_count
         print(favorite_coun)
-        if favorite_coun >=5 and  tweet.retweet_count >=0:
+        if favorite_coun >=15 or  tweet.retweet_count >=0:
             print(tweet.favorite_count)
             # print("The tweet is greater than 0 or equal to 0  ")
             api.update_status(status=comment, in_reply_to_status_id = tweet_id, auto_populate_reply_metadata=True)
